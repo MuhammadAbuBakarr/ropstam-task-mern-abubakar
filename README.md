@@ -8,9 +8,6 @@ This is a landing page project built using **React**, **Vite**, and **Tailwind C
 - **Vite**
 - **Tailwind CSS**
 
-## 📦 Installation
-
-Follow the steps below to run this project locally:
 
 ### 1. Project Installation.
 
