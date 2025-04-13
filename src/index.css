@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+.container-custom {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.custom-hover {
+  @apply hover:scale-105 duration-300 cursor-pointer;
+}
+a {
+  @apply hover:scale-105 duration-300 cursor-pointer;
+}
+/* CSS Debugger :) */
+.b {
+  border: 1px solid red;
+}
+.card-shadow {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.06);
+}
+.background-gradient {
+  background: linear-gradient(
+    310deg,
+    rgba(73, 199, 171, 0.32) 11.54%,
+    rgba(255, 255, 255, 0.32) 111.58%
+  );
+}
+/* Linear Background Gradient */
+.linear-background {
+  background: linear-gradient(
+    123.74deg,
+    rgba(73, 199, 171, 0.7) 11.54%,
+    rgba(255, 255, 255, 0.7) 111.58%
+  );
+}
+/* EMBLA CLASSES */
+.embla {
+  max-width: 100%;
+  margin: auto;
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+  --slide-spacing-sm: 1.6rem;
+  --slide-size-sm: 50%;
+  --slide-spacing-lg: 2rem;
+  --slide-size-lg: calc(100% / 3);
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+  gap: 10px;
+  z-index: -1000;
+}
+@media (min-width: 750px) {
+  .embla__container {
+    margin-left: calc(var(--slide-spacing-sm) * -1);
+  }
+}
+@media (min-width: 1200px) {
+  .embla__container {
+    margin-left: calc(var(--slide-spacing-lg) * -1);
+  }
+}
+.embla__slide {
+  min-width: 0;
+  flex: 0 0 var(--slide-size);
+  padding-left: var(--slide-spacing);
+  z-index: 1000;
+}
+@media (min-width: 750px) {
+  .embla__slide {
+    flex: 0 0 var(--slide-size-sm);
+    padding-left: var(--slide-spacing-sm);
+  }
+}
+@media (min-width: 1200px) {
+  .embla__slide {
+    flex: 0 0 var(--slide-size-lg);
+    padding-left: var(--slide-spacing-lg);
+  }
+}
+/* MARQUEE AUTOPLAY */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  animation: marquee 5s linear infinite;
+}

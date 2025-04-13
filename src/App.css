@@ -1,0 +1,104 @@
+/* FONTS/cabine */
+@config "../tailwind.config.js";
+
+/* Frank Ruhl Libre - All Weights */
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frank Ruhl Libre";
+  src: url("/fonts/FrankRuhlLibre-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CABINET GROTESK FONTS */
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("/fonts/cabinet/CabinetGrotesk-Variable.woff2") format("woff2"),
+    url("/fonts/cabinet/CabinetGrotesk-Variable.woff") format("woff"),
+    url("/fonts/cabinet/CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-Fallback";
+  src: url("/fonts/cabinet/CabinetGrotesk-Regular.woff2") format("woff2"),
+    url("/fonts/cabinet/CabinetGrotesk-Regular.woff") format("woff"),
+    url("/fonts/cabinet/CabinetGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk-Fallback";
+  src: url("/fonts/cabinet/CabinetGrotesk-Bold.woff2") format("woff2"),
+    url("/fonts/cabinet/CabinetGrotesk-Bold.woff") format("woff"),
+    url("/fonts/cabinet/CabinetGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Body styles */
+body {
+  font-family: "CabinetGrotesk", "CabinetGrotesk-Fallback", sans-serif;
+}
+
+/* Button styles */
+button {
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+.frank-ruhl {
+  font-family: "Frank Ruhl Libre", serif;
+}
