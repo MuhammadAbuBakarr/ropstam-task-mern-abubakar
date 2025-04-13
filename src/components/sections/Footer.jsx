@@ -51,9 +51,9 @@ const Footer = () => {
                 Social Media
               </h1>
               <div className="flex justify-between items-center gap-5">
-                <img className="w-9 custom-hover" src={twitter} alt="" />
-                <img className="w-6  custom-hover" src={facebook} alt="" />
-                <img className="w-9 custom-hover" src={youtube} alt="" />
+                <img className="w-7 custom-hover" src={twitter} alt="" />
+                <img className="w-5  custom-hover" src={facebook} alt="" />
+                <img className="w-7 custom-hover" src={youtube} alt="" />
               </div>
             </div>
           </div>
