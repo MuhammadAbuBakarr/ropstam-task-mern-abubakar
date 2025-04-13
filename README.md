@@ -12,7 +12,7 @@ This is a landing page project built using **React**, **Vite**, and **Tailwind C
 
 Follow the steps below to run this project locally:
 
-### 1. Clone the Repository
+### 1. Project Installation.
 
 ```bash
 git clone https://github.com/MuhammadAbuBakarr/ropstam-task-mern-abubakar.git
