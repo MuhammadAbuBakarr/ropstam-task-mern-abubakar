@@ -1,12 +1,15 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
-.body {
-  margin: 0px;
-  padding: 0px;
-}
 .container-custom {
   max-width: 1440px;
   margin-inline: auto;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 .custom-hover {
   @apply hover:scale-105 duration-300 cursor-pointer;

@@ -73,9 +73,12 @@ const List = ({ heading = "", items = [] }) => {
     <div className="flex flex-col h-full">
       <h1 className="text-text-secondary frank-ruhi text-2xl">{heading}</h1>
       <div className="flex flex-col gap-4 mt-4">
-        {items?.map((i) => (
-          <div className="text-[18px] text-text-muted cursor-pointer hover:scale-[1.03] hover:opacity-65 transition-all duration-200">
-            {i}
+        {items?.map((item, index) => (
+          <div
+            key={index}
+            className="text-[18px] text-text-muted cursor-pointer hover:scale-[1.03] hover:opacity-65 transition-all duration-200"
+          >
+            {item}
           </div>
         ))}
       </div>

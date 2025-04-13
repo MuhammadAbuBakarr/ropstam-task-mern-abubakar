@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="h-full w-full bg-black/60">
         <div className="h-full w-full p-5 md:p-7 sm:p-10 container-custom">
           <Navbar />
-          <div className="w-full h-full text-center lg:text-start flex justify-center items-center lg:pl-8">
-            <div className="space-y-7 w-full md:p-10">
+          <div className="w-full pb-10 h-full text-center lg:text-start flex justify-center items-center lg:pl-8">
+            <div className="space-y-7 w-full md:p-10 ">
               <h2 className="text-[#F1F5F9] text-2xl font-normal">
                 No lines.Less hassle, Lower costs.
               </h2>

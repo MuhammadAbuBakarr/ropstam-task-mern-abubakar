@@ -32,7 +32,7 @@ const Menu = () => {
   }, [isOpen]);
 
   return (
-    <div className="relative lg:hidden" ref={menuRef}>
+    <div className="relative xl:hidden" ref={menuRef}>
       <button
         onClick={toggleMenu}
         className="p-2 focus:outline-none cursor-pointer"

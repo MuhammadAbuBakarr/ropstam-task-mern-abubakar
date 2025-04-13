@@ -11,7 +11,7 @@ import VideoSection from "./components/sections/VideoSection";
 
 function App() {
   return (
-    <main className="">
+    <main className="mx-auto">
       <Hero />
       <StatsSection />
       <VideoSection />
